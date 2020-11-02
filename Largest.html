@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body> 
+	<script> 
+		var highnumber = 0;
+		 // initiate highnumber variable as 0; Replace this 0 inside 
+
+
+		for var (var i = 0; i < 4; i = i + 1) {
+			var userinput = prompt("Number please...");
+			var usernum = parseInt(userinput, 10);
+			// console.log("User entered: " + usernum);
+			if (usernum > highnumber){
+				highnumber = usernum;
+				// If new number is greater, replace current value of higherst number variable
+				console.log("Updating highnumber...");
+			} else {
+				console.log("This is not the highest number...");
+				// If new umber is not higher, do nothing.
+			}
+		}
+			console.log("The largest number is:" + highnumber);
+			// At the end of the loop, print the highest value.
+
+	</script>
+</body>
+</html>
